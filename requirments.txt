@@ -2,3 +2,4 @@ notebook
 matplotlib
 pandas
 numpy
+tensorflow
