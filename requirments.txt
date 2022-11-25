@@ -2,4 +2,5 @@ notebook
 matplotlib
 pandas
 numpy
+seaborn
 tensorflow
