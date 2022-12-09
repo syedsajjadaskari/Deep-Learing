@@ -1,6 +1,7 @@
 notebook
 matplotlib
 pandas
+sklearn
 numpy
 seaborn
 tensorflow
