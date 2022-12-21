@@ -1,9 +1,0 @@
-notebook
-matplotlib
-pandas
-numpy
-seaborn
-tensorflow
-dvc
-seaborn
--e . #to install from local src
