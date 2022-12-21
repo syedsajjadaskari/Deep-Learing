@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 ##Logging
-logging.basicConfig(Level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
 package_name = "deepClassfier"
 
@@ -34,7 +34,17 @@ for filepath in list_file:
     filedir, filename = os.path.split(filepath)# to seprate directory and filename
     if filedir != "":
         os.makedirs(filedir, exist_ok=True)
-        logging.info()
+        logging.info(f"creating directory: {filename} for file {filename}")
+    #if not exist or fil size is eual to sero then create a file
+    # to not to overwrite
+    if(not os.path.exists(filepath)) or (os.path.getsize) == 0: 
+        with open(filepath, "w") as f:
+            pass ## Create a empty file
+            #store logging info mation
+            logging.info(f"Creating empty file:{filedir}")
+
+    else:
+        logging.info(f"file already exist{filename}")
 
 
     
