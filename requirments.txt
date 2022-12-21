@@ -1,7 +1,9 @@
 notebook
 matplotlib
 pandas
-sklearn
 numpy
 seaborn
 tensorflow
+dvc
+seaborn
+-e . #to install from local src
