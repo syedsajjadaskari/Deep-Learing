@@ -16,8 +16,11 @@ list_file = [
     f"src/{package_name}/pipiline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",#specific fot the test
+    "tests/integration/__init__.py",# for all the test
     "config/config.yaml",
-    "dvx.yaml",
+    "dvc.yaml",
     "params.yaml",
     "init_setup.sh",
     "requirments.txt",
