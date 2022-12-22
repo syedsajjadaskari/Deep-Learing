@@ -11,7 +11,7 @@ list_file = [
                                     People who want to track empty directories in Git have created the convention of putting files called .gitkeep in these directories. """
     f"src/{package_name}/components/__init__.py",
     f"src/{package_name}/__init__.py",
-    f"src/{package_name}/utlis/__init__.py",
+    f"src/{package_name}/utils/__init__.py",
     f"src/{package_name}/config/__init__.py",
     f"src/{package_name}/pipiline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
