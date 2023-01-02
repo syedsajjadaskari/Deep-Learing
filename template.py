@@ -5,15 +5,15 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
 package_name = "deepClassifier"
-
-list_file = [
-    ".github/workflows/.gitkeep","""Git cannot add a completely empty directory. 
+"""Git cannot add a completely empty directory. 
                                     People who want to track empty directories in Git have created the convention of putting files called .gitkeep in these directories. """
+list_file = [
+    ".github/workflows/.gitkeep",
     f"src/{package_name}/components/__init__.py",
     f"src/{package_name}/__init__.py",
     f"src/{package_name}/utils/__init__.py",
     f"src/{package_name}/config/__init__.py",
-    f"src/{package_name}/pipiline/__init__.py",
+    f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
     "tests/__init__.py",
