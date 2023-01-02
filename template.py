@@ -4,7 +4,7 @@ import logging
 ##Logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
-package_name = "deepClassfier"
+package_name = "deepClassifier"
 
 list_file = [
     ".github/workflows/.gitkeep","""Git cannot add a completely empty directory. 
@@ -19,7 +19,7 @@ list_file = [
     "tests/__init__.py",
     "tests/unit/__init__.py",#specific fot the test
     "tests/integration/__init__.py",# for all the test
-    "config/config.yaml",
+    "configs/config.yaml",
     "dvc.yaml",
     "params.yaml",
     "init_setup.sh",
