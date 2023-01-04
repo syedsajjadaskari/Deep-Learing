@@ -5,6 +5,7 @@ from deepClassifier.entity import DataIngestionConfig
 from deepClassifier import logger
 from deepClassifier.utils import get_size
 from pathlib import Path
+from deepClassifier import logger
 
 from tqdm import tqdm #shows progress bar
 
