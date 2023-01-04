@@ -1,8 +1,10 @@
 import os
 from pathlib import Path
 import logging
-##Logging
+
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
+
+package_name = "deepClassifier"
 
 package_name = "deepClassifier"
 """Git cannot add a completely empty directory. 
