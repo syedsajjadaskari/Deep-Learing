@@ -1,1 +1,11 @@
-key : value
+AUGMENTATION: True = #used when we have less number of dataset 
+IMAGE_SIZE: [224,224,3] #As per VGG16 REsearch 
+BATCH_SIZE: 16 #SIZE OF BATCH 16
+INCLUDE_TOP: False #only CNN layers
+EPOCHS: 1 #initial test run
+CLASSES: 2 #dog, Cat
+WEIGHTS: imagenet #weights of imagenet (it was trained in 1000 number of images) pretrained model weights
+LEARNING_RATE: 0.01 
+
+
+
