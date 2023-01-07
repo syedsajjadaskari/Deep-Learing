@@ -15,6 +15,7 @@ joblib
 types-PyYAML
 scipy
 mlflow==1.26.1
+scikit-learn
 -e .
 
 ## Dev requirements
