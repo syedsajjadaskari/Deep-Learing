@@ -6,7 +6,6 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
 package_name = "deepClassifier"
 
-package_name = "deepClassifier"
 """Git cannot add a completely empty directory. 
                                     People who want to track empty directories in Git have created the convention of putting files called .gitkeep in these directories. """
 list_file = [
@@ -25,8 +24,8 @@ list_file = [
     "dvc.yaml",
     "params.yaml",
     "init_setup.sh",
-    "requirements.txt", 
-    "requirements_dev.txt",
+    "requirements.txt", #requirement of the user
+    "requirements_dev.txt",#requirements of the developer
     "setup.py",
     "setup.cfg",
     "pyproject.toml",
