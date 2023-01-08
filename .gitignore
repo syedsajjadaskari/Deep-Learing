@@ -138,3 +138,5 @@ artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-08-12-16-42/t
 research/st_02.ipynb
 artifacts/prepare_base_model/base_model_updated.h5
 artifacts/prepare_base_model/base_model_updated.h5
+
+.DS_Store
