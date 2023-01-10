@@ -1,2 +1,3 @@
-print("hello")
-mlflow.log
+
+import os
+import numpy as numpy
