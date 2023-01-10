@@ -23,9 +23,9 @@ STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
 '''
 MLFLOW_TRACKING_URI=https://dagshub.com/syedsajjadaskari/Deep-Learing.mlflow
 MLFLOW_TRACKING_USERNAME=syedsajjadaskari
-MLFLOW_TRACKING_PASSWORD=<> \
+MLFLOW_TRACKING_PASSWORD=<> \'''
 
-'''
+
 step 2: install mlflow
 
 step 3: set remote URI
