@@ -1,13 +1,8 @@
-### Create a virtual ENvirnments
 echo [$(date)]: "START" 
 echo [$(date)]: "creating env with python 3.8 version" 
-virtualenv venv
-### Activate the virtual Envirmnet
+conda create --prefix ./env python=3.8 -y
 echo [$(date)]: "activating the environment" 
-. venv/bin/activate
+source activate ./env
 echo [$(date)]: "installing the dev requirements" 
-### Creating a new Folder for LabProgram
 pip install -r requirements_dev.txt
-echo [$(date)]: "END" 
-
-
+echo [$(date)]: "END"
