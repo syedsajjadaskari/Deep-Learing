@@ -21,7 +21,7 @@ stages:
         WEIGHTS: imagenet
     outs:
     - path: artifacts/prepare_base_model
-      md5: 7dfa9ead2e672d3e8f7d085485d0c97d.dir
+      md5: b5eb848c34b81b3bc0618a1a7c3ada51.dir
       size: 118054512
       nfiles: 2
   data_ingestion:
@@ -46,7 +46,7 @@ stages:
       size: 460444220
       nfiles: 12499
     - path: artifacts/prepare_base_model
-      md5: 7dfa9ead2e672d3e8f7d085485d0c97d.dir
+      md5: b5eb848c34b81b3bc0618a1a7c3ada51.dir
       size: 118054512
       nfiles: 2
     - path: configs/config.yaml
@@ -69,7 +69,7 @@ stages:
         - 3
     outs:
     - path: artifacts/training/model.h5
-      md5: 10912044d3046164373587c85b57a897
+      md5: 6e641647ba65931a971ac1635dbf8774
       size: 59337488
   evaluation:
     cmd: python src/deepClassifier/pipeline/stage_05_evaluation.py
@@ -79,7 +79,7 @@ stages:
       size: 460444220
       nfiles: 12499
     - path: artifacts/training/model.h5
-      md5: 10912044d3046164373587c85b57a897
+      md5: 6e641647ba65931a971ac1635dbf8774
       size: 59337488
     - path: configs/config.yaml
       md5: 85ab84237ae7b29ca452cbf952dec56e
@@ -96,5 +96,5 @@ stages:
         - 3
     outs:
     - path: scores.json
-      md5: 0dc8c4eab07f6771af08e3d8f5746bc3
-      size: 55
+      md5: e3160c4435aa00025ef3f76b832dd93d
+      size: 54
